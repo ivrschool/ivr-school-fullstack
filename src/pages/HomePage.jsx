@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from 'react'
+import React, { Component } from 'react'
 import TopBanner from '../components/TopBanner/TopBanner';
 import TopNavigation from '../components/TopNavigation/TopNavigation';
 import Services from '../components/Services/Services';
@@ -16,7 +16,7 @@ class HomePage extends Component {
         return (
             
             <div>
-            <TopNavigation />
+            <TopNavigation title="ivr school" /> 
             <TopBanner />
             <Services />
             <Analysis />
