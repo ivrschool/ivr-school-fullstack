@@ -10,6 +10,7 @@ import Video from '../components/Video/Video';
 import ClientReview from '../components/ClientReview/ClientReview';
 import AboutMe from '../components/AboutMe/AboutMe';
 import Footer from '../components/Footer/Footer';
+import Welcome from '../components/Welcome/Welcome';
 
 class HomePage extends Component {
     render() {
@@ -17,7 +18,8 @@ class HomePage extends Component {
             
             <div>
             <TopNavigation title="ivr school" /> 
-            <TopBanner />
+                <TopBanner />
+                <Welcome /> 
             <Services />
             <Analysis />
             <Summary />
@@ -27,7 +29,6 @@ class HomePage extends Component {
             <ClientReview />
             <AboutMe />
             <Footer />
-            
             </div>
         )
 
