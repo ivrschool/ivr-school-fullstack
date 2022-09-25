@@ -1,12 +1,11 @@
 import React from 'react';
-import HomePage from './pages/HomePage';
-import PageTop from './components/PageTop/PageTop';
-import TopNavigation from './components/TopNavigation/TopNavigation';
+// import AboutPage from './pages/AboutPage';
+import AllCoursePage from './pages/AllCoursePage';
 function App() {
   return (
     <div>
-      <TopNavigation />
-      <PageTop pagetitle="About Me "/>
+      {/* <AboutPage /> */}
+      <AllCoursePage/>
     </div>
       
 
