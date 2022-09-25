@@ -1,11 +1,9 @@
 import React from 'react';
-// import AboutPage from './pages/AboutPage';
-import AllCoursePage from './pages/AllCoursePage';
+import PortfolioPage from './pages/PortfolioPage';
 function App() {
   return (
     <div>
-      {/* <AboutPage /> */}
-      <AllCoursePage/>
+      <PortfolioPage/>
     </div>
       
 
