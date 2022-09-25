@@ -1,10 +1,11 @@
 import React from 'react';
-import PortfolioPage from './pages/PortfolioPage';
+import {BrowserRouter} from "react-router-dom"
+import AppRouter from './router/AppRouter';
 function App() {
   return (
-    <div>
-      <PortfolioPage/>
-    </div>
+    <BrowserRouter>
+     <AppRouter />
+     </BrowserRouter>
       
 
   );
