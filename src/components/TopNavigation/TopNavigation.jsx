@@ -12,16 +12,17 @@ class TopNavigation extends Component {
           this.state={
               navBarTitle: "navTitle",
               navBarLogo: [whiteLogo], // object
-              navBarBack: "navBackground",
+               navBarBack: "navBackground",
+              navVariant:"dark",
               navBarItem:"navItem"
           }
      }
 
      onScroll=()=>{
           if(window.scrollY>100){
-               this.setState({navBarTitle:'navTitleScroll',navBarLogo:[blackLogo],navBarBack:'navBackgroundScroll',navBarItem:'navItemScroll'})
+               this.setState({navBarTitle:'navTitleScroll',navBarLogo:[blackLogo],navBarBack:'navBackgroundScroll',navBarItem:'navItemScroll',navVariant:'light'})
           } else if (window.scrollY < 100) {
-               this.setState({navBarTitle:'navTitle',navBarLogo:[whiteLogo],navBarBack:'navBackground',navBarItem:"navItem"})
+               this.setState({navBarTitle:'navTitle',navBarLogo:[whiteLogo],navBarBack:'navBackground',navBarItem:"navItem",navVariant:'dark'})
           }
      }
 
@@ -35,7 +36,7 @@ class TopNavigation extends Component {
                   
                   
 
-                    <Navbar className={this.state.navBarBack} collapseOnSelect fixed="top" expand="lg" variant="dark">
+                    <Navbar className={this.state.navBarBack} collapseOnSelect fixed="top" expand="lg" variant={this.state.navVariant}>
 
                       {/* <Container> */}
                       {/* <Navbar.Brand href="#home">ivr school</Navbar.Brand> */}

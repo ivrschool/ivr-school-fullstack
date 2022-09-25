@@ -30,7 +30,7 @@ class AboutMe extends Component {
                                 <div className="aboutMeBody">
                                     <h2 className="aboutMeDetails">HI There, I'm</h2>
                                     <h2 className="aboutMeTitle">Pankaj Chandravanshi</h2>
-                             <h3 className="aboutMeDetails"> <TypeAnimation sequence={['AI Software Engineer', 1000 ]}/></h3>
+                             <h3 className="aboutMeDetails"> <TypeAnimation sequence={['AI Software Engineer', 1000 ]} wrapper="div" cursor={true} repeat={Infinity}/></h3>
                               </div>
                               
                           </Col>
