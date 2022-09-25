@@ -4,7 +4,10 @@ import PageTop from '../components/PageTop/PageTop'
 import PrivacyDescription from '../components/PrivacyDescription/PrivacyDescription'
 import TopNavigation from '../components/TopNavigation/TopNavigation'
 
- class PrivacyPage extends Component {
+class PrivacyPage extends Component {
+      componentDidMount(){
+          window.scroll(0,0)
+      }
      render() {
           return (
                <Fragment>

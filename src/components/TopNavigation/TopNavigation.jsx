@@ -48,7 +48,7 @@ class TopNavigation extends Component {
 
                       {/* <Container> */}
                       {/* <Navbar.Brand href="#home">ivr school</Navbar.Brand> */}
-                            <Navbar.Brand className={this.state.navBarTitle} href="#home"> <img src={this.state.navBarLogo} /> </Navbar.Brand>
+                         <Navbar.Brand className={this.state.navBarTitle} ><NavLink to="/"> <img src={this.state.navBarLogo} /> </NavLink> </Navbar.Brand>
                             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                             <Navbar.Collapse id="responsive-navbar-nav">
                                 <Nav className="mr-auto">
