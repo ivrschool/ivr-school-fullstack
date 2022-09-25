@@ -7,6 +7,7 @@ import ContactPage from '../pages/ContactPage';
 import HomePage from '../pages/HomePage';
 import PortfolioPage from '../pages/PortfolioPage';
 import RefundPage from '../pages/RefundPage';
+import TermsPage from '../pages/TermsPage';
 class AppRouter extends Component {
   render() {
     return (
@@ -18,7 +19,8 @@ class AppRouter extends Component {
                 <Route exact path="/porfolio" element={<PortfolioPage/>} />
                 <Route exact path="/about" element={<AboutPage/>} />
                 <Route exact path="/contact" element={<ContactPage />} />
-                <Route exact path="/refund" element={<RefundPage/>} /> 
+          <Route exact path="/refund" element={<RefundPage />} />
+           <Route exact path="/terms" element={<TermsPage/>} /> 
             </Routes>
             
       </Fragment>
